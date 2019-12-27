@@ -133,7 +133,7 @@ dataset_t* get_dataset(const char *img_path, const char *lbl_path, size_t* size)
 	return dataset;
 }
 
-
+/*
 void main() {
 	dataset_img_header_t header_img;
 	dataset_lbl_header_t header_lbl;
@@ -156,4 +156,4 @@ void main() {
 	d = get_dataset("dataset/train-images", "dataset/train-labels", &size);
 	printf("\n\nDataset size: %d\n", size);
 
-}
+} */
